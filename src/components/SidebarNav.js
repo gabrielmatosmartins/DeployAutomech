@@ -103,6 +103,20 @@ const SidebarNav = () => {
               </Text>
             </Link>
           </ChakraLink>
+
+              <ChakraLink
+            _hover={{ bg: "gray.100" }}
+            px="4"
+            py="2"
+            borderRadius={5}
+            bg={asPath === "/cadastrarReparo" ? "gray.200" : ""}
+          >
+            <Link href="/cadastrarReparo">
+              <Text fontSize="md" fontWeight="medium" color="gray.500">
+                CADASTRAR REPARO
+              </Text>
+            </Link>
+          </ChakraLink>
         </Stack>
       </Stack>
     </Stack>
