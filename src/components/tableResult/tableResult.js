@@ -1,3 +1,22 @@
+import {
+  Box,
+  Button,
+  Divider,
+  Flex,
+  Input,
+  SimpleGrid,
+  Table,
+  Tbody,
+  Td,
+  Text,
+  Th,
+  Thead,
+  Tr,
+  ButtonGroup,
+  AlertTitle,
+  AlertDescription,
+} from "@chakra-ui/react";
+
 import React from "react";
 import "./style.css";
 import { Table } from 'react-bootstrap';
